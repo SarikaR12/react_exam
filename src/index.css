@@ -1,13 +1,126 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --white: #fff;
+    --black: #000;
+    --head-color: #bbb;
+    --primary: #085c79;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    max-width: 1350px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* navbar */
+.navbar {
+    padding: 15px;
+    background-color: #b42d9796;
+}
+
+.logo-img img {
+    width: 100px;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black) !important;
+}
+
+.navbar .profile i {
+    font-size: 25px;
+    color: var(--primary);
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    padding: 11px 13px;
+}
+
+
+/* admin */
+
+.manage .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.manage {
+    margin-top: 80px;
+}
+
+.manage .table td {
+    padding: 20px 0;
+}
+
+.moovie-data {
+    margin-top: 100px;
+}
+
+.moovie-data .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.moovie-data .btn-data {
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.button {
+    padding: 10px 24px;
+    background-color: var(--primary);
+    color: var(--white);
+    text-transform: capitalize;
+    border-radius: 18px;
+    border: transparent;
+}
+
+.table-dataa th {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.table-dataa td {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.table-dataa .table-btn {
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--primary);
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
 }

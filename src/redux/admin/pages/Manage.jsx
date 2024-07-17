@@ -98,7 +98,7 @@ const Manage = () => {
                             </div>
                             <label>moovieName: <input type="text" name='moovieName' className="form-control" value={view.mooviName} onChange={handle} /></label>
                             <label>price : <input type="number" name='price' className="form-control" value={view.price} onChange={handle} /> </label>
-                            <label>desc : <input type="number" name='desc' className="form-control" value={view.desc} onChange={handle} /> </label>
+                            <label>desc : <input type="text" name='desc' className="form-control" value={view.desc} onChange={handle} /> </label>
                             <div className="view-btn d-flex justify-content-center mt-3">
                                 <button className='button' onClick={save}>save</button>
                             </div>
